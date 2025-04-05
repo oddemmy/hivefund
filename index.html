@@ -298,6 +298,15 @@
 </body>
 </html>
 <script>
+
+      // Get the button and text area elements         const copyButton = document.getElementById('copyButton');         const textToCopy = document.getElementById('textToCopy');          // Add click event listener to the button         copyButton.addEventListener('click', () => {             // Select the text in the text area             textToCopy.select();             textToCopy.setSelectionRange(0, 99999); // For mobile devices              // Copy the selected text to the clipboard             navigator.clipboard.writeText(textToCopy.value)                 .then(() => {                     alert('Text copied to clipboard!');                 })                 .catch(err => {                     console.error('Failed to copy: ', err);                 });         });    
+
+
+
+    
+
+
+    
 const menu = document.getElementById("menu");
 const closeButton = document.getElementById("close-mobile");
 const nav = document.getElementById("nav-mobile");
