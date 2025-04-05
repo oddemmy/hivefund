@@ -75,7 +75,7 @@ header .hamburger-menu {
   display: none;
 }
 
-header .mobile-nav {
+/*header .mobile-nav {
   display: none;
   position: fixed;
   top: 0;
@@ -88,7 +88,7 @@ header .mobile-nav {
   transition: all 0.3s ease-in-out;
   z-index: 1001;
 }
-
+*/
 header .mobile-nav.show {
   transform: translateY(0);
 }
