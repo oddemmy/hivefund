@@ -1,0 +1,280 @@
+@media (max-width: 1024px) {
+    #home{
+        margin-top: 10%;
+    }
+    #home .flexbox {
+        flex-direction: column; /* Stack the items vertically */
+    }
+
+    #home .flexbox-image {
+        order: -1; /* This moves the image to the top */
+    }
+
+    #home .flexbox-text {
+        text-align: center; /* Optional: Center the text for a better layout on small screens */
+    }
+    .flexbox-image img{
+        margin-top: 10%;
+    }
+    .flexbox-text{
+        max-width: 80%;
+    }
+    .flexbox-text h1{
+        font-size: 35px;
+    }
+
+
+    
+    .mission-flexbox {
+        flex-direction: column; /* Stack the items vertically */
+    }
+
+    .mission-flexbox-image {
+        order: -1; /* This moves the image to the top */
+    }
+    .mission-flexbox-text {
+        max-width: 80%;
+        text-align: center; /* Optional: Center the text for a better layout on small screens */
+    }
+
+    
+
+
+   
+}
+@media (max-width: 768px) {
+    .home-img{
+        margin-top: 20%;
+    }
+    table{
+        width: 80%;
+        font-size: 14px;
+    }
+    #roadmap h1{
+        font-size: 30px
+    }
+    .roadmap-item{
+        font-size: 12px;
+    }
+    #whyhfc h1{
+        font-size: 25px;
+    }
+    .whyhfc-flex-container{
+        flex-direction: column;
+    }
+    .whyhfc-flex-item{
+        width: 90%;
+    }
+    #conclusion h1{
+        font-size: 30px;
+    }
+    #conclusion p{
+        font-size: 20px;
+        max-width: 80%;
+    }
+    .social-text h1{
+        font-size: 30px;
+    }
+    .social-text h2{
+        font-size: 20px;
+    }
+    .social-x{
+        width: 55px;
+    }
+    .social-tg{
+        width: 50px;
+    }
+}
+@media (max-width: 576px) {
+    #home{
+        margin-top: 15%;
+    }
+    .flexbox-image img{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .flexbox-text h1{
+        font-size: 30px;
+    }.flexbox-text p{
+        font-size: 15px;
+    }
+    .mission-flexbox-text h1{
+        font-size: 30px;
+    }
+    .mission-flexbox-text p{
+        font-size: 15px;
+    }
+    #problem{
+        width: 70%;
+    }
+    #tokenusecases{
+        width: 75%;
+    }
+    .tokenomics h1{
+        font-size: 30px;
+    }
+    table{
+        font-size: 12px;
+    }
+    #roadmap h1{
+        font-size: 25px;
+    }
+    .roadmap-item{
+        font-size: 10px;
+    }
+    #community h1{
+        font-size: 22px;
+    }
+    #community p{
+        font-size: 18px;
+    }
+    #security h1{
+        font-size: 22px;
+    }
+    #whyhfc h1{
+        font-size: 20px;
+    }
+    .whyhfc-flex-container{
+        flex-direction: column;
+    }
+    .whyhfc-flex-item{
+        width: 75%;
+    }
+    #risks h1{
+        font-size: 20px;
+    }
+    #risks li{
+        font-size: 14px;
+    }
+    #conclusion h1{
+        font-size: 26px;
+    }
+    #conclusion p{
+        font-size: 16px;
+        max-width: 80%;
+    }
+    .social-text h1{
+        font-size: 25px;
+    }
+    .social-text h2{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 15px;
+    }
+}
+@media (max-width: 430px) {
+    header .logo a {
+        font-size: 18px;
+    }
+    header{
+        height: 8vh;
+    }
+    #navimg{
+        width: 60px;
+    }
+
+    #home{
+        margin-top: 15%;
+    }
+    .flexbox-image img{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .flexbox-text h1{
+        font-size: 23px;
+    }
+    .flexbox-text h2{
+        font-size: 18px;
+    }
+    .flexbox-text p{
+        font-size: 15px;
+    }
+    .mission-flexbox-text h1{
+        font-size: 25px;
+    }
+    .mission-flexbox-text p{
+        font-size: 14px;
+    }
+    .whitepaper{
+        font-size: 17px;
+    }
+    #problem{
+        width: 70%;
+    }
+    #problem h1{
+        font-size: 23px;
+    }
+    #tokenusecases{
+        width: 80%;
+    }
+    #tokenusecases h1{
+        font-size: 23px;
+    }
+    #tokenusecases ul li{
+        padding: 6px;
+    }
+    .tokenomics h1{
+        font-size: 30px;
+    }
+    table{
+        font-size: 12px;
+    }
+    .percent{
+        font-size: 10px;
+    }
+    .table-text{
+        font-size: 13px;
+    }
+    #roadmap h1{
+        font-size: 20px;
+    }
+    .roadmap-item{
+        font-size: 8px;
+    }
+    #community h1{
+        font-size: 19px;
+    }
+    #community p{
+        font-size: 14px;
+    }
+    #security h1{
+        font-size: 17px;
+    }
+    #whyhfc h1{
+        font-size: 17px;
+    }
+    .whyhfc-flex-container{
+        flex-direction: column;
+    }
+    .whyhfc-flex-item{
+        width: 80%;
+        /* height: 20vh; */
+    }
+    .whyhfc-flex-item h3{
+        font-size: 14px;
+    }
+    #risks h1{
+        font-size: 20px;
+    }
+    #risks li{
+        font-size: 14px;
+    }
+    #conclusion h1{
+        font-size: 26px;
+    }
+    #conclusion p{
+        font-size: 16px;
+        max-width: 80%;
+    }
+    .social-text h1{
+        font-size: 25px;
+    }
+    .social-text h2{
+        font-size: 15px;
+    }
+    footer{
+        font-size: 15px;
+    }
+
+}
