@@ -861,7 +861,7 @@ header .hamburger-menu {
   display: block;
 }
 
-header .mobile-nav {
+/*header .mobile-nav {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -876,7 +876,7 @@ header .mobile-nav {
   color: white;
   z-index: 999;
   transition: all 0.2s linear;
-}
+}*/
 
 header .mobile-nav.show {
   transform: translateY(0);
