@@ -241,6 +241,7 @@ body{
   margin: 5% 0;
   text-align: center;
   font-size: 20px;
+  color: white;
 }
 
 
@@ -934,6 +935,10 @@ header .mobile-nav ul li:hover .nav-link::after {
   transition: 0.3s linear;
 }
 }
+
+
+
+
 
 
 
