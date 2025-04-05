@@ -975,10 +975,10 @@ section {
   transition: opacity 0.8s ease-out;
 } */
 #contractAddress{
-  width: 80%;
+  width: fit-content;
   background-color: white;
   color: black;
-  padding: 2%;
+  padding: 3%;
   margin: 3% auto;
   border-radius: 10px;
 }
