@@ -974,6 +974,9 @@ section {
   opacity: 0;
   transition: opacity 0.8s ease-out;
 } */
+#ca{
+  margin: 3% auto;
+}
 #contractAddress{
   width: fit-content;
   background-color: white;
