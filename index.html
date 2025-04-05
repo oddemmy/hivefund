@@ -305,7 +305,20 @@
 </html>
 <script>
 
-      // Get the button and text area elements         const copyButton = document.getElementById('copyButton');         const textToCopy = document.getElementById('textToCopy');          // Add click event listener to the button         copyButton.addEventListener('click', () => {             // Select the text in the text area             textToCopy.select();             textToCopy.setSelectionRange(0, 99999); // For mobile devices              // Copy the selected text to the clipboard             navigator.clipboard.writeText(textToCopy.value)                 .then(() => {                     alert('Text copied to clipboard!');                 })                 .catch(err => {                     console.error('Failed to copy: ', err);                 });         });    
+           // Function to copy the contract address to the clipboard
+    function copyCA() {
+      // Get the text content of the contract address
+      var contractAddress = document.getElementById("contractAddress").textContent;
+  
+      // Use the Clipboard API to copy the content
+      navigator.clipboard.writeText(contractAddress).then(function() {
+        // Display success message
+        document.getElementById("message").textContent = "Contract address copied to clipboard!";
+      }).catch(function(err) {
+        // Display failure message
+        document.getElementById("message").textContent = "Failed to copy contract address.";
+      });
+    }
 
 
 
