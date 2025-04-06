@@ -978,7 +978,7 @@ section {
   margin: 3% auto;
 }
 #contractAddress{
-  width: fit-content;
+  max-width: 80%;
   background-color: white;
   color: black;
   padding: 3%;
