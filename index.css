@@ -979,6 +979,7 @@ section {
 }
 #contractAddress{
   max-width: 80%;
+  height:20vh;
   background-color: white;
   color: black;
   padding: 3%;
