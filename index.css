@@ -976,6 +976,7 @@ section {
 } */
 #ca {
   margin: 3% auto;
+  font-weight: bolder;
 }
 
 #contractAddress {
