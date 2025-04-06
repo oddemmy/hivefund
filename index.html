@@ -111,18 +111,22 @@
                              for digital donations, micro-payments, and fundraising. It's goalis to transform 
                              traditional charitable support into a transparent, fast, and decentralized system.
                         </p> 
-                    <div id="w-node-_2d18da7a-de96-bf7e-873b-18011a8b0ee1-5fd9d824" class="row1-copy">
+                        <div id="w-node-_2d18da7a-de96-bf7e-873b-18011a8b0ee1-5fd9d824" class="row1-copy">
                             <div id="ca">Contract address</div>
-                            
+                          
                             <!-- The content to copy (e.g., the contract address) -->
-                            <span class="text-span" id="contractAddress"> 4NktgwQD7RdixGgZNr5anK6wznsjqhfz9xUqRwEMpump</span> <span id="contractAddress"></span>
-                            
+                            <span class="text-span" id="contractAddress" data-full-content="4NktgwQD7RdixGgZNr5anK6wznsjqhfz9xUqRwEMpump">
+                              4NktgwQD7RdixGgZNr5anK6wznsjqhfz9xUqRwEMpump
+                            </span>
+                            <br>
+                          
                             <!-- Button to copy the content -->
-                            <button onclick="copyCA()">Copy CA</button>
-                            
+                            <button id="cabtn" onclick="copyCA()">Copy CA</button>
+                          
                             <!-- Message to show success or failure -->
                             <p id="message"></p>
-                        </div>
+                          </div>
+                          
                     
                         <div class="buy">
                             BUY $HFC
@@ -305,20 +309,19 @@
 </html>
 <script>
 
-           // Function to copy the contract address to the clipboard
-    function copyCA() {
-      // Get the text content of the contract address
-      var contractAddress = document.getElementById("contractAddress").textContent;
+function copyCA() {
+  // Get the full contract address (from the data-full-content attribute)
+  var contractAddress = document.getElementById("contractAddress").getAttribute("data-full-content");
   
-      // Use the Clipboard API to copy the content
-      navigator.clipboard.writeText(contractAddress).then(function() {
-        // Display success message
-        document.getElementById("message").textContent = "Contract address copied to clipboard!";
-      }).catch(function(err) {
-        // Display failure message
-        document.getElementById("message").textContent = "Failed to copy contract address.";
-      });
-    }
+  // Use the Clipboard API to copy the full content
+  navigator.clipboard.writeText(contractAddress).then(function() {
+    // Display success message
+    document.getElementById("message").textContent = "Contract address copied to clipboard!";
+  }).catch(function(err) {
+    // Display failure message
+    document.getElementById("message").textContent = "Failed to copy contract address.";
+  });
+}
 
 
 
