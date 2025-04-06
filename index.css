@@ -974,15 +974,26 @@ section {
   opacity: 0;
   transition: opacity 0.8s ease-out;
 } */
-#ca{
+#ca {
   margin: 3% auto;
 }
-#contractAddress{
-  max-width: 80%;
-  height:20vh;
+
+#contractAddress {
+  max-width: 50%;
+  /* height: 20vh; */
   background-color: white;
   color: black;
   padding: 3%;
-  margin: 3% auto;
+  margin: 3% 0;
   border-radius: 10px;
+  text-overflow: ellipsis; /* Add "..." at the end */
+  white-space: nowrap; /* Prevent text from wrapping onto multiple lines */
+  display: inline-block;
+  overflow: hidden;
+}
+
+#cabtn {
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 2%;
 }
